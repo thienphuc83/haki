@@ -11,12 +11,14 @@
         android:theme="@style/Theme.Haki">
         <activity
             android:name=".home.HomeActivity"
-            android:exported="false"
-            android:label="@string/title_activity_home" />
-        <activity
-            android:name=".home.MainActivity"
-            android:exported="false"
-            android:label="@string/title_activity_main" />
+            android:exported="true"
+            android:label="@string/title_activity_home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
