@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/icStore"
-        android:icon="@drawable/ic_store_24dp"
-        android:title="Store" />
+        android:id="@+id/icHome"
+        android:icon="@drawable/ic_home_24dp"
+        android:title="@string/home" />
     <item
-        android:id="@+id/icWall"
-        android:icon="@drawable/ic_wall_24dp"
-        android:title="Wall" />
-    <item
-        android:id="@+id/placeholder"
+        android:id="@+id/placeHolder"
         android:title="" />
     <item
-        android:id="@+id/icHistory"
-        android:icon="@drawable/ic_history_24dp"
-        android:title="History" />
-    <item
-        android:id="@+id/icAccount"
-        android:icon="@drawable/ic_account_24dp"
-        android:title="Account" />
+        android:id="@+id/icSetting"
+        android:icon="@drawable/ic_settings_24dp"
+        android:title="@string/setting" />
 </menu>

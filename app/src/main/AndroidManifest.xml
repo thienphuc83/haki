@@ -11,8 +11,7 @@
         android:theme="@style/Theme.Haki">
         <activity
             android:name=".home.HomeActivity"
-            android:exported="true"
-            android:label="@string/title_activity_home">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
