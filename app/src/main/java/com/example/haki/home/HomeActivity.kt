@@ -1,10 +1,10 @@
 package com.example.haki.home
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.feature_utils.base.BaseActivity
 import com.example.haki.R
 
-class HomeActivity : AppCompatActivity() {
+class HomeActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
