@@ -3,4 +3,6 @@
     <string name="home">Trang chủ</string>
     <string name="history">Lịch sử</string>
     <string name="setting">Cài đặt</string>
+    <string name="movie">Phim</string>
+    <string name="tivi">TV Show</string>
 </resources>

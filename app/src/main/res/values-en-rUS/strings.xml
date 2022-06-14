@@ -4,4 +4,6 @@
     <string name="home">Home</string>
     <string name="history">History</string>
     <string name="setting">Setting</string>
+    <string name="movie">Movie</string>
+    <string name="tivi">TV Show</string>
 </resources>

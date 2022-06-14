@@ -1,4 +1,4 @@
-package com.example.haki.home.homeFragment
+package com.example.haki.home.movieFragment
 
 import android.content.Context
 import android.os.Bundle
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import com.example.feature_utils.base.BaseFragment
 import com.example.haki.R
 
-class HomeFragment : BaseFragment() {
+class MovieFragment : BaseFragment() {
 
     companion object{
-        fun newInstance(): HomeFragment = HomeFragment().apply {
+        fun newInstance(): MovieFragment = MovieFragment().apply {
             arguments = Bundle().apply {
             }
         }
@@ -30,7 +30,7 @@ class HomeFragment : BaseFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        return inflater.inflate(R.layout.fragment_movie, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

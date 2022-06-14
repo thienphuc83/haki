@@ -1,5 +1,4 @@
-package com.example.haki.setting
-
+package com.example.haki.home.tiviFragment
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,10 +7,10 @@ import android.view.ViewGroup
 import com.example.feature_utils.base.BaseFragment
 import com.example.haki.R
 
-class SettingFragment : BaseFragment() {
+class TiviFragment : BaseFragment() {
 
     companion object{
-        fun newInstance(): SettingFragment = SettingFragment().apply {
+        fun newInstance(): TiviFragment = TiviFragment().apply {
             arguments = Bundle().apply {
             }
         }
@@ -30,7 +29,7 @@ class SettingFragment : BaseFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_setting, container, false)
+        return inflater.inflate(R.layout.fragment_tivi, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/icHome"
-        android:icon="@drawable/ic_home_24dp"
-        android:title="@string/home" />
+        android:id="@+id/icMovie"
+        android:icon="@drawable/ic_movie_24dp"
+        android:title="@string/movie" />
     <item
         android:id="@+id/placeHolder"
         android:title="" />
     <item
-        android:id="@+id/icSetting"
-        android:icon="@drawable/ic_settings_24dp"
-        android:title="@string/setting" />
+        android:id="@+id/icTivi"
+        android:icon="@drawable/ic_tv_24dp"
+        android:title="@string/tivi" />
 </menu>
